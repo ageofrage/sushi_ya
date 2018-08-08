@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html　lang=ja>
+  <head>
+    <meta charset="UTF-8">
+    <title>一見さん以外お断り！</title>
+    <link rel="stylesheet" href="css/sushi_ya.css">
+      <link rel="stylesheet" href="css/animate.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+
+  <body>
+    <div class="top-img">
+      <img src="img/sushi.jpg">
+    </div>
+    <div class="header">
+      <h1>一見さんにやさしいお寿司屋</h1>
+      <ul class="jump">
+        <li class="to-menu">メニュー</li>
+        <li class="to-how">食べ方</li>
+        <li class="to-tips">用語</li>
+        <li class="to-sushi">寿司屋</li>
+      </ul>
+    </div>
+
+<div class="main" id="main">
+    <div class="modal-wrapper" id="tuna-modal">
+      <div class="modal animated bounceIn">
+        <div class="close-modal">
+          閉じる
+        </div>
+        <h1>まぐろ</h1>
+        <img src="img/tuna.jpg">
+        <div class="modal-text">
+          回遊魚の一種。<br>
+          トロが美味しいとされ高価で人気だが、江戸時代は保存性の問題から廃棄されていた。<br>
+          新鮮なものが美味しいと思われがちだが、死後３〜４日で旨味成分がピークに達するので寝かせた方がいい。
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-wrapper" id="shrimp-modal">
+      <div class="modal animated bounceIn">
+        <div class="close-modal">
+          閉じる
+        </div>
+        <h1>えび</h1>
+        <img src="img/shrimp.jpg">
+        <div class="modal-text">
+          甲殻類の一種。<br>
+          漢字、英語共に表記が複数あるが、いずれもサイズの違いによって使い分けている。<br>
+          ザリガニはどちらかというとエビ。
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-wrapper" id="salmon-modal">
+      <div class="modal animated bounceIn">
+        <div class="close-modal">
+          閉じる
+        </div>
+        <h1>さけ</h1>
+        <img src="img/salmon.jpg">
+        <div class="modal-text">
+          身は赤いが白身魚。<br>
+          寄生虫が理由で、元来寿司ネタになかったが、冷凍技術の発展により普及した。<br>
+          回転寿司で食べられるサーモンはニジマス。
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-wrapper" id="egg-modal">
+      <div class="modal animated bounceIn">
+        <div class="close-modal">
+          閉じる
+        </div>
+        <h1>たまご</h1>
+        <img src="img/egg.jpg">
+        <div class="modal-text">
+          寿司屋ではギョクとも呼ばれる。<br>
+          酢飯の口直しに、甘いネタを取り入れるという理由で大体の店にある。<br>
+          玉子の良し悪しで、その職人の腕がわかるという、恐ろしいネタ。
+        </div>
+      </div>
+    </div>
+
+    <div class="main-container">
+    <div class="menu" id="menu">
+      <div class="menu-tip" id="tuna">
+        <div class="mask">
+        鮪
+      </div>
+      </div>
+      <div class="menu-tip" id="shrimp">
+        <div class="mask">
+        海老
+        </div>
+      </div>
+      <div class="menu-tip" id="salmon">
+        <div class="mask">
+        鮭
+      </div>
+      </div>
+      <div class="menu-tip" id="egg">
+        <div class="mask">
+        玉子
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <div class="howto" id="howto">
+      <div class="mask">
+      <h2>お寿司の美味しい食べ方</h2>
+      <div class="howto-contents">
+        <div class="howto-title">
+          <div class="mask">
+            <h4>ひとつ　醤油はネタにちょこんとつける</h4>
+          </div>
+        </div>
+        <p>醤油をシャリにもどっぷりつけていませんか？<br>
+          シャリに醤油をたくさんつけてしまうと寿司が崩れてしまいます。<br>
+          ネタに少し醤油をつけて食べるのがベストです。
+        </p>
+      </div>
+
+      <div class="howto-contents">
+        <div class="howto-title">
+          <div class="mask">
+            <h4>ふたつ　口に入れる時はネタを下にする</h4>
+          </div>
+        </div>
+        <p>もちろん好きに食べるのが一番ですが、一度ネタを下に、ひっくり返して食べてみてください。<br>
+          ネタの味と舌触りが直に伝わって美味しいですよ。
+        </p>
+      </div>
+
+      <div class="howto-contents">
+        <div class="howto-title">
+          <div class="mask">
+            <h4>みっつ　食べる時は淡白な味のものから</h4>
+          </div>
+        </div>
+        <p>もし色んな種類の寿司を食べるなら、淡白な味のものから食べて下さい。<br>
+          味の濃いものから食べてしまうと、口の中に味が残ってしまいます。
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+<div id="tips" class="tips">
+    <div class="tips-title">
+      <div class="mask">
+        <h2>用語集</h2>
+      </div>
+    </div>
+
+  <div class="tips-container">
+    <div class="tips-contents">
+      <div class="tips-q">
+        あがり
+      </div>
+      <div class="tips-a">
+        あがり
+        <img class="tips-img" src="img/tea.jpg">
+        お茶
+      </div>
+    </div>
+
+    <div class="tips-contents">
+      <div class="tips-q">
+        くさ
+      </div>
+      <div class="tips-a">
+        くさ
+        <img class="tips-img" src="img/weed.jpg">
+        海苔
+      </div>
+    </div>
+
+    <div class="tips-contents">
+      <div class="tips-q">
+        どんしゃり
+      </div>
+      <div class="tips-a">
+        どんしゃり
+        <img class="tips-img" src="img/rice.jpg">
+        普通の飯
+      </div>
+    </div>
+
+    <div class="tips-contents">
+      <div class="tips-q">
+        むらさき
+      </div>
+      <div class="tips-a">
+        むらさき
+        <img class="tips-img" src="img/soi.jpg">
+        醤油
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+  <div class="clear"></div>
+
+</div>
+
+<div class="footer" id="sushida">
+  <a href="http://neutral.x0.com/home/sushida/play1.html" >寿司屋に行った気分になってみる</a>
+    <div class="tweet">
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="はじめておすしさんにいったよ" data-url="http://sanage.zombie.jp/sushi/sushi_ya" data-hashtags="一見さんお断り" data-show-count="false">
+        つぶやく
+      </a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+</div>
+
+  <script src="js/sushi.js"></script>
+  </body>
+</html>
